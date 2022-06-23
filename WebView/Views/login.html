@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../Style/login.css">
+    <div class="header">
+        <div class="header-left">
+            <h1>UNIVERSIDAD NACIONAL</h1>
+        </div>
+        <div class="header-right">
+        </div>
+    </div>
+    <h1>Login</h1>
+</head>
+<body>
+<div id="page-container">
+    <div id="content-wrap">
+        <div class="login">
+            <form id="login" method="get" action="login.php">
+                <input type="text" name="Uname" id="user" placeholder="Cedula" required>
+                <br><br>
+                <input type="Password" name="Pass" id="password" placeholder="Contraseña" required>
+                <br><br>
+                <input type="button" name="log" id="log" value="Log In Here" onClick = " validateUser()">
+                <br><br>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start" id="footer">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark">Brute Force</a>
+        </div>
+    </footer>
+</div>
+</body>
+<script src="../Js/login.js"></script>
+</html>
